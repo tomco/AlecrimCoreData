@@ -526,7 +526,9 @@
 				PRODUCT_NAME = AlecrimCoreData;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos";
 				TARGETED_DEVICE_FAMILY = 4;
+				VALID_ARCHS = armv7k;
 			};
 			name = Debug;
 		};
@@ -544,8 +546,10 @@
 				PRODUCT_NAME = AlecrimCoreData;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos";
 				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = armv7k;
 			};
 			name = Release;
 		};
@@ -577,6 +581,7 @@
 				E4AC9C321B678EAE00690EFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
